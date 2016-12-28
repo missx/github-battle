@@ -22,12 +22,11 @@ var PromptContainer = React.createClass({
     handleSubmitUser: function (e) {
         e.preventDefault();
         var username = this.state.username;
-        console.log('username', username);
         this.setState({
             username: ''
         });
-        console.log(this.props.params.playerOne);
-        if (this.props.params.PlayerOne) {
+        
+        if (this.props.routeParams.playerOne) {
             //go to /battle 
              this.context.router.push({
                 pathname: '/battle',
