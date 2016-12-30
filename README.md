@@ -17,3 +17,5 @@ It mainly covers the basics of React:
 - Promises 
 - Container vs presentational components
 
+See the app in https://missx.github.io/github-battle/#/
+
